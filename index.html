@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Pages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Elements</h1>
+    </header>
+    <main>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+        <button id="myButton">Click Me!</button>
+        <p id="buttonMessage"></p>
+
+        <label for="toggleSwitch">Toggle Switch:</label>
+        <input type="checkbox" id="toggleSwitch">
+        <p id="toggleMessage"></p>
+
+        <select id="myDropdown">
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <p id="dropdownMessage"></p>
+        <div>
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+            </form>    
+        </div>
+
+        <div>
+            <h2>FAQ</h2>
+            <button class="collapsible">What is this website about?</button>
+            <div class="content">
+                <p>This website is about interactive web elements.</p>
+            </div>
+            <button class="collapsible">How can I contact support?</button>
+            <div class="content">
+                <p>You can contact support via email at support@example.com.</p>
+            </div>
+        </div>      
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f7fa; /* soft light gray-blue background */
+  color: #2d2d2d;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #0a0a0a; /* dark mode */
+  color: #f5f5f5;
+}
+
+/* Header & Footer */
+header, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Buttons */
+button {
+  margin: 5px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #4a90e2; /* soft blue */
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #357abd; /* darker blue on hover */
+}
+
+body.dark-mode button {
+  background-color: #6c63ff; /* vibrant purple for dark mode */
+}
+
+body.dark-mode button:hover {
+  background-color: #594dd1;
+}
+
+/* Inputs & Dropdown */
+input, select {
+  display: block;
+  margin: 5px 0 15px 0;
+  padding: 8px;
+  width: 220px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+body.dark-mode input,
+body.dark-mode select {
+  background-color: #2a2a3b;
+  border: 1px solid #888;
+  color: #fff;
+}
+
+/* Error Messages */
+.error {
+  color: #e63946; /* bright red */
+  font-size: 0.85em;
+  margin-bottom: 5px;
+}
+
+/* FAQ Collapsible Section */
+.collapsible {
+  background-color: #ffb347; /* soft orange */
+  color: #2d2d2d;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+  background-color: #ffa31a; /* brighter on hover */
+}
+
+body.dark-mode .collapsible {
+  background-color: #ff9f43; /* warm orange for dark mode */
+  color: #1e1e2e;
+}
+
+.content {
+  display: none;
+  background-color: #e8f0fe; /* light pastel blue */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body.dark-mode .content {
+  background-color: #2e2e3f;
+  color: #ddd;
+}
